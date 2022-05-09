@@ -6,6 +6,8 @@
 @import 'blocks/title';
 @import 'blocks/buttons';
 @import 'blocks/sidepannel';
+@import 'blocks/menu';
+@import 'blocks/about';
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -15,4 +17,11 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
 }
